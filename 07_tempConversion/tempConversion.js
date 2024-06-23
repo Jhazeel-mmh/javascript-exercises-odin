@@ -3,7 +3,7 @@ const convertToCelsius = function(fahren) {
 };
 
 const convertToFahrenheit = function(celsius) {
-  return Number((celsius * (5 / 9)  + 32).toFixed(1))
+  return Number((celsius * (9 / 5)  + 32).toFixed(1))
 };
 
 // Do not edit below this line
